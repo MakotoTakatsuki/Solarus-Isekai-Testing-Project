@@ -1,0 +1,34 @@
+animation{
+  name = "flying",
+  src_image = "enemies/boss/evil_eagle/eagle.png",
+  frame_delay = 50,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 96, frame_width = 96, frame_height = 96, origin_x = 48, origin_y = 48, num_frames = 6 },
+    { x = 0, y = 96, frame_width = 96, frame_height = 96, origin_x = 48, origin_y = 48, num_frames = 6 },
+    { x = 0, y = 0, frame_width = 96, frame_height = 96, origin_x = 48, origin_y = 48, num_frames = 6 },
+    { x = 0, y = 0, frame_width = 96, frame_height = 96, origin_x = 48, origin_y = 48, num_frames = 6 },
+  },
+}
+animation{
+  name = "attacking",
+  src_image = "enemies/boss/evil_eagle/eagle.png",
+  directions = {
+    { x = 576, y = 96, frame_width = 96, frame_height = 96, origin_x = 48, origin_y = 48 },
+    { x = 576, y = 96, frame_width = 96, frame_height = 96, origin_x = 48, origin_y = 48 },
+    { x = 576, y = 0, frame_width = 96, frame_height = 96, origin_x = 48, origin_y = 48 },
+    { x = 576, y = 0, frame_width = 96, frame_height = 96, origin_x = 48, origin_y = 48 },
+  },
+}
+animation{
+  name = "rushing",
+  src_image = "enemies/boss/evil_eagle/eagle.png",
+  frame_delay = 50,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 288, frame_width = 96, frame_height = 96, origin_x = 48, origin_y = 48, num_frames = 4 },
+    { x = 0, y = 288, frame_width = 96, frame_height = 96, origin_x = 48, origin_y = 48, num_frames = 4 },
+    { x = 0, y = 192, frame_width = 96, frame_height = 96, origin_x = 48, origin_y = 48, num_frames = 4 },
+    { x = 0, y = 192, frame_width = 96, frame_height = 96, origin_x = 48, origin_y = 48, num_frames = 4 },
+  },
+}

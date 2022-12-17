@@ -1,0 +1,16 @@
+quest{
+  solarus_version = "1.6",
+  write_dir = "MyGame2",
+  title = "Other World Security",
+  short_description = "Placeholder",
+  long_description = [[
+Placeholder]],
+  author = "Takatsuki",
+  quest_version = "Alpha",
+  release_date = "20210405",
+  website = "",
+  normal_quest_size = "320x240",
+  min_quest_size = "320x200",
+  max_quest_size = "400x240",
+}
+
